@@ -1,0 +1,28 @@
+{
+  "1731376342421": {
+    "conversationId": "1731376342421",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "ê"
+      },
+      {
+        "sender": "ai",
+        "message": "Please provide me with more information about what you need help with. \"ê\" is not a clear instruction.  \n\nFor example, tell me:\n\n* **What programming language are you working with?**\n* **What is the specific problem you're trying to solve?**\n* **Do you have any code snippets you'd like me to debug?**\n* **What kind of algorithm or data structure are you interested in?**\n* **What specific advice are you looking for about software development?**\n\nOnce I have more context, I can give you a clear and helpful response. \n"
+      }
+    ]
+  },
+  "1731376352135": {
+    "conversationId": "1731376352135",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "bạn là ai"
+      },
+      {
+        "sender": "ai",
+        "message": "Tôi là một kỹ sư phần mềm được tạo ra bởi Kenji Akira( Ngọc Từ ), với tên gọi AI-Craft. Nhiệm vụ chính của tôi là hỗ trợ các công việc lập trình, giải quyết vấn đề mã hóa và giải thích các khái niệm kỹ thuật. \n\nTôi có thể giúp bạn với:\n\n* Khắc phục lỗi mã trong nhiều ngôn ngữ lập trình (JavaScript, Python, Java, v.v.).\n* Giải thích các thuật toán và cấu trúc dữ liệu.\n* Viết các đoạn mã và ví dụ để giải quyết các nhiệm vụ cụ thể.\n* Đưa ra lời khuyên về các thực tiễn tốt nhất cho phát triển phần mềm.\n* Hỗ trợ các khái niệm như các mẫu thiết kế, kiến trúc phần mềm và kiểm soát phiên bản.\n\nHãy cho tôi biết bạn cần hỗ trợ gì. \n"
+      }
+    ]
+  }
+}
