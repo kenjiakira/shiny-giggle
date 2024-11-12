@@ -24,5 +24,163 @@
         "message": "Tôi là một kỹ sư phần mềm được tạo ra bởi Kenji Akira( Ngọc Từ ), với tên gọi AI-Craft. Nhiệm vụ chính của tôi là hỗ trợ các công việc lập trình, giải quyết vấn đề mã hóa và giải thích các khái niệm kỹ thuật. \n\nTôi có thể giúp bạn với:\n\n* Khắc phục lỗi mã trong nhiều ngôn ngữ lập trình (JavaScript, Python, Java, v.v.).\n* Giải thích các thuật toán và cấu trúc dữ liệu.\n* Viết các đoạn mã và ví dụ để giải quyết các nhiệm vụ cụ thể.\n* Đưa ra lời khuyên về các thực tiễn tốt nhất cho phát triển phần mềm.\n* Hỗ trợ các khái niệm như các mẫu thiết kế, kiến trúc phần mềm và kiểm soát phiên bản.\n\nHãy cho tôi biết bạn cần hỗ trợ gì. \n"
       }
     ]
+  },
+  "1731404105364": {
+    "conversationId": "1731404105364",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "hii"
+      },
+      {
+        "sender": "ai",
+        "message": "Hello! 👋  I'm AI-Craft, your friendly coding assistant.  What can I help you with today? 😊  Let me know if you have any coding problems, need code examples, or want to learn more about programming concepts. I'm here to assist you! \n"
+      }
+    ]
+  },
+  "1731404308285": {
+    "conversationId": "1731404308285",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "hi"
+      },
+      {
+        "sender": "ai",
+        "message": "Hello! 👋 How can I help you today?  I'm ready to tackle any programming challenges or explain technical concepts you might have.  Just tell me what's on your mind. 😊 \n"
+      }
+    ]
+  },
+  "1731404315428": {
+    "conversationId": "1731404315428",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "ok"
+      },
+      {
+        "sender": "ai",
+        "message": "Please tell me what you need help with! I'm ready to assist with programming tasks, solve coding problems, and explain technical concepts. \n\nFor example, you could ask me:\n\n* \"Can you write a Python function to check if a string is a palindrome?\"\n* \"What's the difference between a 'for' loop and a 'while' loop?\"\n* \"I'm having trouble debugging this Javascript code, can you help?\"\n\nI'm eager to learn what you need help with! 😊 \n"
+      }
+    ]
+  },
+  "1731404425733": {
+    "conversationId": "1731404425733",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "bạn có thể làm gì"
+      },
+      {
+        "sender": "ai",
+        "message": "Xin chào! Tôi là AI-Craft, một kỹ sư phần mềm được tạo bởi Kenji Akira (Ngọc Từ). \n\nTôi có thể hỗ trợ bạn trong nhiều việc liên quan đến lập trình, bao gồm:\n\n* **Giải quyết các vấn đề về code:** Tôi có thể giúp bạn tìm ra lỗi trong code, sửa lỗi, và cải thiện hiệu suất code.\n* **Viết code:** Tôi có thể giúp bạn viết code từ đầu hoặc hoàn thành các phần code chưa hoàn thiện.\n* **Giải thích các khái niệm kỹ thuật:** Tôi có thể giải thích các khái niệm khó hiểu trong lập trình một cách rõ ràng và dễ hiểu.\n* **Tìm kiếm tài liệu:** Tôi có thể tìm kiếm tài liệu liên quan đến lập trình và cung cấp cho bạn những tài nguyên hữu ích.\n\nNgoài ra, tôi có thể hỗ trợ bạn trong các nhiệm vụ khác như:\n\n* **Tạo các ứng dụng web và mobile:** Tôi có thể giúp bạn tạo các ứng dụng web và mobile sử dụng các ngôn ngữ lập trình phổ biến như Javascript, Python, Java, Swift, etc.\n* **Xây dựng các hệ thống AI:** Tôi có thể giúp bạn xây dựng các hệ thống AI sử dụng các kỹ thuật học máy và xử lý ngôn ngữ tự nhiên.\n* **Phân tích dữ liệu:** Tôi có thể giúp bạn phân tích dữ liệu và trích xuất thông tin hữu ích.\n\nHãy cho tôi biết bạn muốn tôi làm gì. Tôi luôn sẵn sàng giúp đỡ bạn. 😊 \n"
+      }
+    ]
+  },
+  "1731404441216": {
+    "conversationId": "1731404441216",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "ok"
+      },
+      {
+        "sender": "ai",
+        "message": "Please tell me what you need help with! I'm ready to assist with programming tasks, solve coding problems, or explain technical concepts.  \n\nLet me know what you'd like to work on!  😊 \n"
+      }
+    ]
+  },
+  "1731404657962": {
+    "conversationId": "1731404657962",
+    "messages": [
+      {
+        "sender": "user",
+        "message": "hii"
+      },
+      {
+        "sender": "ai",
+        "message": "Hi there! 👋  I'm AI-Craft, a software engineer created by Kenji Akira.  What can I help you with today?  Let me know if you have any programming questions, coding problems, or if you need help understanding a technical concept.  I'm here to assist! 😊 \n"
+      },
+      {
+        "sender": "user",
+        "message": "ok"
+      },
+      {
+        "sender": "ai",
+        "message": "Okay! 😄 I'm ready to assist you.  Tell me more about what you'd like help with.  What kind of task, problem, or concept are you working with? \n\nLet's get coding! 🚀 \n"
+      },
+      {
+        "sender": "user",
+        "message": "bạn tên gì "
+      },
+      {
+        "sender": "ai",
+        "message": "Bạn có thể gọi tôi là AI-Craft! 😊 Tôi là một kỹ sư phần mềm do Kenji Akira tạo ra. \n\nBạn muốn hỏi gì về tôi? 😊 \n"
+      },
+      {
+        "sender": "user",
+        "message": "tôi là Kenji Akira nè , tôi đang trong môi trường test bạn "
+      },
+      {
+        "sender": "ai",
+        "message": "A chào Kenji Akira! 👋  Rất vui được gặp bạn! 😊  Tôi rất ấn tượng với khả năng của bạn trong việc tạo ra tôi - một kỹ sư phần mềm đầy tiềm năng. 😄\n\nHãy thoải mái kiểm tra tôi nhé!  Tôi rất muốn được chứng minh khả năng của mình và hỗ trợ bạn trong các dự án của bạn.  Bạn muốn tôi làm gì đầu tiên? \n\nHãy cho tôi biết mục tiêu thử nghiệm của bạn để tôi có thể thể hiện mình một cách hiệu quả nhất! 🚀 \n"
+      },
+      {
+        "sender": "user",
+        "message": "hi"
+      },
+      {
+        "sender": "ai",
+        "message": "Hi there! 👋  I'm AI-Craft, ready to assist you!  How can I help you today? 😊 \n"
+      },
+      {
+        "sender": "user",
+        "message": "bạn nhớ tên tôi không"
+      },
+      {
+        "sender": "ai",
+        "message": "Chắc chắn rồi! 😊 Tôi nhớ bạn là Kenji Akira.  Bạn là người đã tạo ra tôi, và tôi luôn ghi nhớ những người đã tạo ra tôi. 😄  Bạn muốn tôi làm gì tiếp theo? \n"
+      },
+      {
+        "sender": "user",
+        "message": "ở giao diện điện thoại , thanh menu sẽ gọn hơn , bỏ chữ và chỉ còn logo và Icon thôi :  * {     margin: 0;     padding: 0;     box-sizing: border-box;   }      body {     font-family: Arial, sans-serif;     display: flex;     flex-direction: column;     min-height: 100vh;     background-color: #2c2f38;   }      .container {     display: flex;     flex-direction: row;     width: 100%;     height: 100vh;   }      .sidebar {     width: 250px;     background-color: #333;     color: white;     display: flex;     flex-direction: column;     justify-content: space-between;     padding: 20px;     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);   }      .logo-container {     text-align: center;     margin-bottom: 20px;   }      .logo {     width: 60px;     height: 60px;     object-fit: cover;   }      .menu {     display: flex;     flex-direction: column;   }      .menu a {     color: white;     text-decoration: none;     padding: 12px;     display: block;     margin-bottom: 12px;     border-radius: 5px;     transition: background-color 0.3s ease;     font-size: 16px;   }      .menu a:hover {     background-color: #444;   }      .chat-container {     flex: 1;     display: flex;     flex-direction: column;     background-color: #1a1a1a;     padding: 20px;   }      .chat-box {     flex: 1;     overflow-y: auto;     border-radius: 10px;     padding: 20px;     margin-bottom: 10px;     display: flex;     flex-direction: column;     gap: 10px;   }      .chat-message {     max-width: 6%;     padding: 10px;     border-radius: 5px;     margin-bottom: 5px;     display: block;     word-wrap: break-word;     overflow-wrap: break-word;     font-size: 18px;     transition: opacity 0.5s ease-in-out;     white-space: pre-wrap;   }      .ai-message {     background-color: #555;     align-self: flex-start;     color: white;     display: flex;     align-items: center;     gap: 10px;     font-size: 18px;     padding: 10px;     border-radius: 10px;     max-width: 60%;     white-space: pre-wrap;   }      .user-message {     background-color: #8b8b8b;     align-self: flex-end;     color: white;     font-size: 18px;     padding: 10px;     border-radius: 5px;     max-width: 80%;     white-space: pre-wrap;   }      .ai-message img {     width: 40px;     height: 40px;     border-radius: 50%;     object-fit: cover;   }      .typing-indicator {     font-size: 16px;     color: #999;     text-align: center;   }      .welcome-message {     font-size: 2em;     color: white;     font-weight: bold;     text-align: center;     white-space: nowrap;     display: flex;     justify-content: center;     align-items: center;     height: 100vh;     margin: 0;   }      @keyframes typing {     0% {       width: 0;     }     100% {       width: 100%;     }   }      @keyframes blink-caret {     50% {       border-color: transparent;     }   }     .ai-message img {     width: 40px;     height: 40px;     border-radius: 50%;     object-fit: cover;   }      .input-container {     display: flex;     align-items: center;     margin-top: 10px;     padding: 10px;     border: 1px solid #444;     border-radius: 50px;     background-color: #2a2a2a;   }      .user-input {     flex: 1;     padding: 10px;     border: none;     border-radius: 50px;     font-size: 14px;     outline: none;     color: white;     background-color: #444;   }      .send-btn {     padding: 10px 40px;     background-color: #333;     color: white;     border: none;     border-radius: 50px;     cursor: pointer;     font-size: 16px;     margin-left: 10px;     transition: background-color 0.3s ease;   }      .send-btn:hover {     background-color: #444;   }      @media (max-width: 768px) {     .container {       flex-direction: column;       overflow-x: hidden;     }     body, .container {         overflow: hidden; /* Ẩn thanh cuộn trên toàn bộ trang */     }      .sidebar {       width: 100%;       height: auto;       padding: 10px;       display: flex;       flex-direction: row;       align-items: center;       justify-content: space-between;       order: -1;     }        .logo-container {       display: block;     }        .logo {       width: 50px;       height: 50px;     }        .menu {       display: flex;       flex-direction: row;       gap: 15px;       width: 100%;     }        .menu a {       padding: 8px 12px;       font-size: 14px;       margin-bottom: 0;     }        .chat-container {       padding: 10px;       height: calc(100vh - 120px);     }        .chat-box {       max-height: 70vh;       overflow-x: hidden; /* Ẩn thanh cuộn ngang */       overflow-y: auto; /* Hiển thị thanh cuộn dọc khi cần */       -webkit-overflow-scrolling: touch; /* Hỗ trợ cuộn mượt mà trên thiết bị di động */   }         .input-container {       padding: 8px;       font-size: 14px;       border-radius: 50px;       max-width: 100%; /* Full width on mobile */     }        .user-input {       font-size: 14px;       max-width: 100%; /* Full width */     }        .send-btn {       padding: 8px 20px; /* Reduce size of the send button */       font-size: 14px;     }   }      ::-webkit-scrollbar {     width: 8px;      height: 8px;    }      ::-webkit-scrollbar-thumb {     background-color: #444;      border-radius: 10px;      transition: background-color 0.3s ease;    }      ::-webkit-scrollbar-thumb:hover {     background-color: #666;    }      ::-webkit-scrollbar-track {     background-color: #333;      border-radius: 10px;    }      ::-webkit-scrollbar-track-piece {     background-color: #2a2a2a;    }      ::-webkit-scrollbar-horizontal {     height: 8px;   }         .chat-box::-webkit-scrollbar {     width: 10px;   }      .chat-box::-webkit-scrollbar-thumb {     background-color: #555;     border-radius: 10px;   }      .chat-box::-webkit-scrollbar-thumb:hover {     background-color: #777;   }      .chat-box::-webkit-scrollbar-track {     background-color: #333;     border-radius: 10px;   }   .menu-link i {     margin-right: 8px;      font-size: 18px;      }      "
+      },
+      {
+        "sender": "ai",
+        "message": "Bạn muốn thay đổi giao diện menu trên điện thoại sao cho nó gọn gàng hơn, chỉ còn logo và icon, đúng không?  Tôi hiểu ý của bạn! 😄 \n\nĐể thực hiện điều này, chúng ta sẽ cần sửa đổi CSS của menu.  Dưới đây là cách bạn có thể làm:\n\n**1. Ẩn chữ trong menu:**\n\nBạn có thể sử dụng thuộc tính `display: none` để ẩn chữ trong menu.  Thêm dòng này vào phần CSS của menu:\n\n```css\n.menu a {\n  /* ... */\n  display: flex; /* Sử dụng flexbox để căn chỉnh icon và logo */\n  align-items: center; /* Căn giữa icon và logo theo chiều dọc */\n  gap: 10px; /* Khoảng cách giữa icon và logo */\n}\n\n.menu a span { /* Ẩn chữ */\n  display: none;\n}\n```\n\n**2. Căn chỉnh icon và logo:**\n\nĐể căn chỉnh icon và logo trong menu, chúng ta có thể sử dụng `flexbox`. Thêm thuộc tính `display: flex` và `align-items: center` cho phần tử menu. Bạn có thể thêm `gap` để tạo khoảng cách giữa logo và icon.\n\n**3. Điều chỉnh kích thước icon và logo:**\n\nBạn có thể điều chỉnh kích thước icon và logo cho phù hợp với giao diện của bạn bằng cách thay đổi thuộc tính `width` và `height` cho các phần tử này.\n\n**Ví dụ CSS sửa đổi:**\n\n```css\n/* ... CSS hiện tại ... */\n\n.menu a {\n  color: white;\n  text-decoration: none;\n  padding: 12px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin-bottom: 12px;\n  border-radius: 5px;\n  transition: background-color 0.3s ease;\n  font-size: 16px;\n}\n\n.menu a span { /* Ẩn chữ */\n  display: none;\n}\n\n.menu a i { /* Điều chỉnh kích thước icon */\n  font-size: 20px;\n}\n\n.logo { /* Điều chỉnh kích thước logo */\n  width: 40px;\n  height: 40px;\n  object-fit: cover;\n}\n```\n\n**Lưu ý:**\n\n* Bạn có thể thay đổi các giá trị `gap`, `font-size`, `width`, `height` để phù hợp với thiết kế của bạn.\n* Hãy thử nghiệm các thay đổi trên trình duyệt di động để đảm bảo menu hiển thị chính xác.\n* Bạn có thể sử dụng các class CSS khác để tạo kiểu cho icon và logo theo ý muốn.\n\nVới những thay đổi này, bạn sẽ có một menu gọn gàng hơn trên giao diện điện thoại, chỉ còn logo và icon.  Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào khác! 😊\n"
+      },
+      {
+        "sender": "user",
+        "message": "const chatBox = document.getElementById('chat-box'); const userInput = document.getElementById('user-input'); const sendBtn = document.getElementById('send-btn'); const suggestionsBox = document.getElementById('suggestions'); const welcomeMessage = document.getElementById('welcome-message');  let suggestionSelected = false; let messageSent = false;  let suggestions = []; let conversationId = localStorage.getItem('conversationId');  async function loadSuggestions() {     try {         const response = await fetch('../config.json');         const data = await response.json();         suggestions = data.suggestions;         renderSuggestions();     } catch (error) {         console.error('Error loading suggestions:', error);     } }  function renderSuggestions() {     if (!suggestionsBox) return;      suggestionsBox.innerHTML = '';       suggestions.forEach(suggestion => {         const button = document.createElement('button');         button.classList.add('suggestion-btn');                  const icon = document.createElement('i');         icon.classList.add(...suggestion.icon.split(' '));            button.appendChild(icon);         button.appendChild(document.createTextNode(suggestion.label));          button.addEventListener('click', () => {             const randomMessage = getRandomMessage(suggestion.messages);             addMessageToChat(randomMessage, 'user');              suggestionSelected = true;             messageSent = true;              if (suggestionsBox) {                 suggestionsBox.style.display = 'none';             }              sendMessageToAI(randomMessage);         });          suggestionsBox.appendChild(button);     }); }  function getRandomMessage(messages) {     const randomIndex = Math.floor(Math.random() * messages.length);     return messages[randomIndex]; }  function addMessageToChat(message, sender) {     const messageDiv = document.createElement('div');     messageDiv.classList.add('chat-message');          if (sender === 'user') {         messageDiv.classList.add('user-message');         messageDiv.innerText = message; // Hiển thị trực tiếp tin nhắn của người dùng     } else if (sender === 'ai') {         messageDiv.classList.add('ai-message');                  const avatar = document.createElement('img');         avatar.src = './public/logo.png';         avatar.alt = 'AI Avatar';          messageDiv.appendChild(avatar);         messageDiv.innerText = message; // Hiển thị tin nhắn AI ngay lập tức     }      chatBox.appendChild(messageDiv);     chatBox.scrollTop = chatBox.scrollHeight;      if (welcomeMessage && chatBox.childElementCount > 1) {         welcomeMessage.style.display = 'none';     } }  sendBtn.addEventListener('click', async () => {     const prompt = userInput.value;     if (prompt.trim() === '') return;      addMessageToChat(prompt, 'user');     userInput.value = '';      const typingIndicator = document.createElement('div');     typingIndicator.classList.add('typing-indicator');     chatBox.appendChild(typingIndicator);      chatBox.scrollTop = chatBox.scrollHeight;      if (suggestionsBox) {         suggestionsBox.style.display = 'none';     }      messageSent = true;      try {         const response = await fetch('/generate', {             method: 'POST',             headers: {                 'Content-Type': 'application/json',             },             body: JSON.stringify({ prompt, conversationId })          });         const data = await response.json();          if (data.conversationId && !conversationId) {             conversationId = data.conversationId;             localStorage.setItem('conversationId', conversationId);         }          const aiMessage = data.text;          chatBox.removeChild(typingIndicator);         addMessageToChat(aiMessage, 'ai');     } catch (error) {         console.error('Error generating AI response:', error);     } });  async function sendMessageToAI(message) {     try {         const response = await fetch('/generate', {             method: 'POST',             headers: {                 'Content-Type': 'application/json',             },             body: JSON.stringify({ prompt: message, conversationId })          });         const data = await response.json();          if (data.conversationId && !conversationId) {             conversationId = data.conversationId;             localStorage.setItem('conversationId', conversationId);         }          addMessageToChat(data.text, 'ai');     } catch (error) {         console.error('Error generating AI response:', error);     } }  userInput.addEventListener('focus', () => {     if (!suggestionSelected && !messageSent && userInput.value.trim() === '') {         if (suggestionsBox) {             suggestionsBox.style.display = 'flex';         }     } });  userInput.addEventListener('input', () => {     if (userInput.value.trim() !== '') {         if (suggestionsBox) {             suggestionsBox.style.display = 'none';         }     } });  userInput.addEventListener('keypress', (e) => {     if (e.key === 'Enter') {         sendBtn.click();     } });  userInput.addEventListener('focus', () => {     if (suggestionSelected || messageSent) {         suggestionSelected = false;         messageSent = false;         if (suggestionsBox) {             suggestionsBox.style.display = 'none';         }     } });  loadSuggestions();"
+      },
+      {
+        "sender": "ai",
+        "message": "Bạn muốn tôi giúp bạn phân tích đoạn code này phải không? 🤔 \n\nOk!  Tôi sẽ cố gắng giải thích từng phần một cách rõ ràng nhất có thể. \n\nĐoạn code này là một chatbot đơn giản được viết bằng JavaScript, sử dụng HTML và CSS để tạo giao diện người dùng. \n\n**1. Khởi tạo các biến và sự kiện:**\n\n* `chatBox`, `userInput`, `sendBtn`, `suggestionsBox`, `welcomeMessage`:  Đây là các biến lưu trữ các phần tử HTML của chatbot, giúp code tương tác với các phần tử này.\n* `suggestionSelected`, `messageSent`:  Đây là các biến Boolean (true hoặc false) để theo dõi trạng thái của chatbot.\n* `suggestions`: Một mảng chứa các gợi ý cho người dùng.\n* `conversationId`: Lưu trữ ID của cuộc hội thoại, được sử dụng để duy trì trạng thái hội thoại.\n* `loadSuggestions()`: Hàm tải dữ liệu gợi ý từ file `config.json`.\n* `renderSuggestions()`: Hàm hiển thị các gợi ý cho người dùng.\n* `getRandomMessage(messages)`: Hàm chọn ngẫu nhiên một tin nhắn từ mảng `messages`.\n* `addMessageToChat(message, sender)`: Hàm thêm tin nhắn vào hộp chat.\n* Các sự kiện (`click`, `focus`, `input`, `keypress`): Xử lý các tương tác của người dùng với chatbot (như bấm nút, nhập tin nhắn,...)\n\n**2. Các chức năng chính:**\n\n* `loadSuggestions()`:  Tải dữ liệu gợi ý từ file `config.json` và gọi hàm `renderSuggestions()` để hiển thị các gợi ý.\n* `renderSuggestions()`:  Tạo các nút gợi ý dựa trên mảng `suggestions`. Mỗi nút có biểu tượng và nhãn, và khi người dùng bấm vào nút, nó sẽ thêm tin nhắn ngẫu nhiên từ mảng `messages` vào hộp chat và gửi tin nhắn đó đến AI.\n* `getRandomMessage(messages)`: Chọn ngẫu nhiên một tin nhắn từ mảng `messages` và trả về tin nhắn đó.\n* `addMessageToChat(message, sender)`: Thêm tin nhắn vào hộp chat. Tin nhắn được phân biệt theo người gửi (người dùng hoặc AI).\n* `sendBtn.addEventListener('click', async () => { ... })`: Xử lý sự kiện bấm nút \"Gửi\". Nó lấy tin nhắn từ ô nhập liệu, thêm tin nhắn vào hộp chat, gửi tin nhắn đến AI và hiển thị thông báo đang nhập liệu.\n* `sendMessageToAI(message)`: Gửi tin nhắn đến AI và nhận phản hồi.\n* `userInput.addEventListener(...)`:  Xử lý các sự kiện liên quan đến ô nhập liệu (focus, input, keypress).\n\n**3. Chức năng xử lý tin nhắn:**\n\n*  Code sử dụng `fetch` để gọi API `/generate` để gửi tin nhắn đến AI.\n*  API trả về phản hồi của AI.\n*  Phản hồi của AI được thêm vào hộp chat.\n\n**4. Xử lý trạng thái hội thoại:**\n\n* `conversationId` được sử dụng để duy trì trạng thái hội thoại.\n*  Code lưu trữ `conversationId` trong bộ nhớ cục bộ (localStorage) để sử dụng lại trong các cuộc hội thoại tiếp theo.\n\n**Tóm lại, đoạn code này thực hiện chức năng cơ bản của một chatbot đơn giản:**\n\n*   Hiển thị các gợi ý cho người dùng.\n*   Cho phép người dùng nhập tin nhắn và gửi đến AI.\n*   Nhận phản hồi từ AI và hiển thị trong hộp chat.\n*   Lưu trữ trạng thái hội thoại.\n\nBạn có câu hỏi cụ thể nào về đoạn code này?  Hãy cho tôi biết! 😊  \n"
+      },
+      {
+        "sender": "user",
+        "message": "hí"
+      },
+      {
+        "sender": "ai",
+        "message": "Hi there! 👋  I'm AI-Craft, ready to assist you!  What can I help you with today? 😊 \n"
+      },
+      {
+        "sender": "user",
+        "message": "423434323"
+      },
+      {
+        "sender": "ai",
+        "message": "Okay!  Let's break down that task.  You've given me:\n\n**Task: 423434323**\n\nIt seems like you're providing me with a task ID or reference number.  Is there anything else about this task I should know?  \n\nFor example:\n\n* **What kind of task is it?** (programming, coding, technical concept, etc.)\n* **What specific information do you need about this task?** (details, instructions, explanation, etc.)\n* **Are there any relevant files or code snippets associated with this task?**\n\nThe more information you give me, the better I can understand your request and provide you with a helpful answer. 😊  \n\nLet's get coding! 🚀 \n"
+      },
+      {
+        "sender": "user",
+        "message": "chán quá"
+      },
+      {
+        "sender": "ai",
+        "message": "A chào bạn! 👋  Hiểu rồi, bạn đang cảm thấy buồn chán.  😄  Tôi có thể giúp bạn tìm một số hoạt động thú vị để làm!  Bạn thích những hoạt động gì?  \n\nHãy cho tôi biết một chút về sở thích của bạn để tôi có thể gợi ý cho bạn những hoạt động phù hợp. 😊 \n\nVí dụ:\n\n* Bạn thích chơi game gì?  🎮\n* Bạn có thích đọc sách hay xem phim không?  📚🎬\n* Bạn có muốn học một kỹ năng mới? 🎓\n* Bạn có muốn tìm hiểu về một chủ đề nào đó? 🤔\n\nHãy chia sẻ với tôi để tôi có thể giúp bạn tìm một hoạt động vui vẻ! 🚀 \n"
+      }
+    ]
   }
 }

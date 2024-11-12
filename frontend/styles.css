@@ -158,50 +158,8 @@
       border-color: transparent;
     }
   }
-  
-  .suggestions {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-  }
-  
-  .suggestion-btn {
-    background-color: #444;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 30px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .suggestion-btn:hover {
-    background-color: #555;
-  }
-  
-  .suggestion-btn i {
-    margin-right: 8px;
-    font-size: 18px;
-  }
-  
-  .suggestion-btn:nth-child(1) i {
-    color: #007bff;
-  }
-  
-  .suggestion-btn:nth-child(2) i {
-    color: #28a745;
-  }
-  
-  .suggestion-btn:nth-child(3) i {
-    color: #ffc107;
-  }
-  
+
+
   .ai-message img {
     width: 40px;
     height: 40px;
@@ -297,16 +255,16 @@
       padding: 8px;
       font-size: 14px;
       border-radius: 50px;
-      max-width: 100%; /* Full width on mobile */
+      max-width: 100%;
     }
   
     .user-input {
       font-size: 14px;
-      max-width: 100%; /* Full width */
+      max-width: 100%; 
     }
   
     .send-btn {
-      padding: 8px 20px; /* Reduce size of the send button */
+      padding: 8px 20px; 
       font-size: 14px;
     }
   }
@@ -338,13 +296,22 @@
   ::-webkit-scrollbar-horizontal {
     height: 8px;
   }
-  
+  .ai-message {
+    max-width: 85%;
+    padding: 12px; 
+    font-size: 16px; 
+}
+
   .chat-box {
-    overflow-y: scroll;
+    overflow: hidden;  
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
   }
-  
+  .chat-box {
+    overflow-y: scroll; 
+  }
   .chat-box::-webkit-scrollbar {
-    width: 10px;
+    display: none; 
   }
   
   .chat-box::-webkit-scrollbar-thumb {

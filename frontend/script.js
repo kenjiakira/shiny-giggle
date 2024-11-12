@@ -8,6 +8,7 @@ let suggestionSelected = false;
 let messageSent = false;
 
 let suggestions = [];
+let conversationId = localStorage.getItem('conversationId');
 
 async function loadSuggestions() {
     try {
@@ -64,6 +65,7 @@ function addMessageToChat(message, sender) {
     
     if (sender === 'user') {
         messageDiv.classList.add('user-message');
+        messageDiv.textContent = message; // Không dùng hiệu ứng gõ cho tin nhắn người dùng
     } else if (sender === 'ai') {
         messageDiv.classList.add('ai-message');
         
@@ -76,7 +78,9 @@ function addMessageToChat(message, sender) {
 
     message = message.replace(/\n/g, '%BR%');
     
-    typeMessage(messageDiv, message); 
+    if (sender === 'ai') {
+        typeMessage(messageDiv, message); // Chỉ giữ hiệu ứng gõ cho tin nhắn AI
+    }
 
     chatBox.appendChild(messageDiv);
     chatBox.scrollTop = chatBox.scrollHeight;
@@ -134,9 +138,15 @@ sendBtn.addEventListener('click', async () => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ prompt })
+            body: JSON.stringify({ prompt, conversationId }) 
         });
         const data = await response.json();
+
+        if (data.conversationId && !conversationId) {
+            conversationId = data.conversationId;
+            localStorage.setItem('conversationId', conversationId);
+        }
+
         const aiMessage = data.text;
 
         chatBox.removeChild(typingIndicator);
@@ -153,9 +163,15 @@ async function sendMessageToAI(message) {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ prompt: message })
+            body: JSON.stringify({ prompt: message, conversationId }) 
         });
         const data = await response.json();
+
+        if (data.conversationId && !conversationId) {
+            conversationId = data.conversationId;
+            localStorage.setItem('conversationId', conversationId);
+        }
+
         addMessageToChat(data.text, 'ai');
     } catch (error) {
         console.error('Error generating AI response:', error);
