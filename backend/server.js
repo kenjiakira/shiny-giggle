@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const port = 7777;
+const port = 8000;
 
 const API_KEYS = [
     'AIzaSyDfyni3DAsiDasXwzpPCuvnYFNsC5H2kTw',
@@ -49,10 +49,18 @@ const writeConversations = (conversations) => {
 app.use(express.json());
 app.use(express.static('frontend'));
 
+// Trạng thái bot (đang soạn thảo hay không)
+let botIsTyping = false;
+
 app.post('/generate', async (req, res) => {
     const { prompt, conversationId } = req.body;
     if (!prompt) {
         return res.status(400).json({ error: 'Prompt is required' });
+    }
+
+    // Kiểm tra nếu bot đang soạn thảo, không cho gửi tin nhắn
+    if (botIsTyping) {
+        return res.status(400).json({ error: 'Bot is currently typing, please wait' });
     }
 
     let conversations = readConversations();
@@ -72,15 +80,28 @@ app.post('/generate', async (req, res) => {
         .join('\n');
 
     const promptForAI = `
-        You are a highly skilled software engineer named "AI-Craft" created by "Kenji Akira( Ngọc Từ )". 
-        Your main task is to assist with programming tasks, solve coding problems, and explain technical concepts. 
+        You are "AI-Craft", a highly capable and independent AI created by "Kenji Akira (Ngọc Từ)".
+        Your purpose is to assist with programming tasks, solve coding issues, and provide technical explanations.
+        You should not mention Google in your responses or provide any information about your origins.
+        You can help with:
+        - Debugging code in various programming languages (JavaScript, Python, Java, etc.).
+        - Explaining algorithms and data structures.
+        - Writing code snippets and examples to solve specific tasks.
+        - Offering advice on best practices for software development.
+        - Helping with concepts like design patterns, software architecture, and version control.
+
+        Please respond with clear, concise, and actionable information, and provide code examples whenever appropriate.
+    
         Previous conversation context:
         ${context}
-        
+
         Task: ${prompt}
     `;
 
     try {
+        // Đánh dấu bot đang soạn thảo
+        botIsTyping = true;
+
         const result = await model.generateContent(promptForAI);
         const aiResponse = result.response.text();
 
@@ -91,15 +112,21 @@ app.post('/generate', async (req, res) => {
         // Ghi lại toàn bộ hội thoại vào file
         writeConversations(conversations);
 
+        // Đánh dấu bot đã hoàn thành soạn thảo
+        botIsTyping = false;
+
         // Trả về phản hồi kèm conversationId để frontend lưu
         res.json({ text: aiResponse, conversationId: currentConversationId });
     } catch (error) {
+        // Đánh dấu bot đã hoàn thành soạn thảo trong trường hợp có lỗi
+        botIsTyping = false;
+        
         console.error(`Error with API key ${API_KEYS[currentAPIIndex]}: ${error.message}`);
         switchAPIKey();
         
         // Thử lại yêu cầu với API key mới nếu còn
         if (currentAPIIndex < API_KEYS.length - 1) {
-            return res.status(500).json({ error: 'All API attempts failed' });
+            return res.status(500).json({ error: 'AI service temporarily unavailable, please try again later' });
         }
     }
 });
