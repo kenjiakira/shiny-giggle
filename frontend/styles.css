@@ -114,7 +114,7 @@
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
-    max-width: 80%;
+    max-width: 40%;
     white-space: pre-wrap;
   }
   
@@ -176,7 +176,7 @@
     border-radius: 50px;
     background-color: #2a2a2a;
   }
-  
+
   .user-input {
     flex: 1;
     padding: 10px;
@@ -186,8 +186,19 @@
     outline: none;
     color: white;
     background-color: #444;
+  }x
+/* Nổi bật các tin nhắn chứa mã */
+.code-message {
+    background-color: #2d2d2d; /* Màu nền khác để dễ nhận diện */
+    color: #f8f8f2; /* Màu chữ sáng hơn */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace; /* Kiểu chữ monospaced */
+    white-space: pre-wrap; /* Đảm bảo các dòng mã không bị cắt */
+    overflow-wrap: break-word; /* Đảm bảo mã dài không bị tràn ra ngoài */
+    margin-bottom: 10px;
+    border-left: 4px solid #4CAF50; /* Viền bên trái màu xanh để phân biệt */
   }
-  
   .send-btn {
     padding: 10px 40px;
     background-color: #333;
@@ -198,12 +209,13 @@
     font-size: 16px;
     margin-left: 10px;
     transition: background-color 0.3s ease;
-  }
-  
-  .send-btn:hover {
+    display: none; /* Đảm bảo nút bắt đầu ở trạng thái ẩn */
+}
+
+.send-btn:hover {
     background-color: #444;
-  }
-  
+}
+
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
@@ -328,8 +340,13 @@
     border-radius: 10px;
   }
   .menu-link i {
-    margin-right: 8px; 
-    font-size: 18px;   
+    margin-right: 0; /* Loại bỏ khoảng cách của biểu tượng */
   }
-  
-  
+  .menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-link::after {
+    content: ""; /* Xóa văn bản */
+  }
